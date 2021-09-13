@@ -11,3 +11,6 @@ The token will need to be created. Ie Marcs Tokens
 Need to include the option for users to pay by visa (and exchange rate calculations)
 More notes to follow.
 
+Rough sketch of initial idea here:
+![sketch](https://user-images.githubusercontent.com/90609781/133061610-96af4b74-3638-40cf-ba76-834fa4a8e1ae.JPG)
+
