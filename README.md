@@ -22,6 +22,21 @@ https://www.youtube.com/watch?v=jERAmhSGfl4
   <li>img: Image files and favicons.</li>
   <li>js: Main javascript files for project</li>
   </ul>
+  
+<h3>Set up the Environment</h3>
+<li>Node.js v16 : $ nvm install 16</li>
+<li>Truffle : npm install -g truffle</li>
+<li>Ganache - Development Blockchain environment : $ npm install -g ganache-cli</li>
+<li>Git</li>
+</ul>
+
+Run at localhost and test and interact
+<li>Start an Ethereum node with Ganache listening on localhost:8545 $ ganache-cli</li>
+<li>$ truffle migrate</li>
+<li>$ truffle test</li>
+<li>$ truffle console</li>
+</ul>
+
 
 <h3>Install</h3>
 <p>To run your own Flip Coin instance:</p>
