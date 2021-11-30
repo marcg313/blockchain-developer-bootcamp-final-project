@@ -42,4 +42,4 @@ To install the local dependencies run npm install in both the root and frontend 
 To run the contract tests, run ganache-cli (host: 127.0.0.1 port: 8545) and truffle test in the root directory.
   
   <h3>Project contract address</h3>
-  0xe4FbC73f03B5Ae1EAf0Aada6C9Cc596f66BBcCB6
+  https://ropsten.etherscan.io/address/0xe4FbC73f03B5Ae1EAf0Aada6C9Cc596f66BBcCB6
