@@ -35,6 +35,7 @@ To run your own Flip Coin instance:
 
   <li>Upload DApp files to a webserver. </li>
   <li>Play!</li>
+  </ol>
 
 To install the local dependencies run npm install in both the root and frontend directory of the project. To run the frontend, call npm run start in the frontend directory.
 
