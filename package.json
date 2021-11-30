@@ -1,0 +1,15 @@
+{
+  "name": "FlipCoin",
+  "version": "0.1.0",
+  "description": "An Ethereum heads or tails gambling dApp",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "marcg313",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1"
+  }
+}

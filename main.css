@@ -1,0 +1,212 @@
+html {
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+body {
+  background-color: #fff;
+  color: #352f58;
+  font-family: Arial, Helvetica, sans-serif;
+	margin:0px!important;
+}
+
+a {
+  color: #17ad99;
+  text-decoration: none;
+}
+
+h1 {text-align:left; font-size:22px;}
+.eth-in-jackpot {text-align:center;}
+
+h2 { background-color: #352f58; color:#fff; padding: 10px; font-size: 20px;}
+
+.recent-games-table th {font-size:14px; padding: 0 20px 0 20px;}
+
+.header {
+  grid-area: header;
+  background-color: #352f58; 
+	color:#fff;
+	padding: 0px 0px 0px 20px;
+	height:60px;
+}
+
+.contract-info {
+  grid-area: contract-info;
+  margin: auto 0;
+  color:#fff;
+  background-color: #352F58E0;
+	padding: 20px 20px 0px 20px;
+	height:40px;
+}
+
+.fail {background-color: #ff3232;}
+.success {color: #a5d732;}
+
+.action {
+  grid-area: action;
+	margin: 0px 10px 20px 20px;
+}
+
+.action img {
+  width: 70%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+/*Label shows above input field*/
+label {
+  display: block;
+}
+
+/* Size of radio buttons */
+input[type="radio"] {
+  height: 25px;
+  width: 25px;
+}
+
+/*Size of label amount*/
+.label-amount {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+/* Play button */
+input[type=number] {
+  width: 50%;
+  padding: 12px 20px;
+  margin-top: 8px;
+  margin-bottom: 4px;
+  border: 1px solid #17ad99;
+  box-sizing: border-box;
+  border-radius: 6px;
+  color: #352f58;
+  background: transparent;
+  transition: all 0.30s ease-in-out;
+}
+
+input[type=number]:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+  outline: none;
+}
+
+/* Dollar */
+.exchange-rate-info {
+  display: inline-block;
+}
+
+/* Info text */
+.info-text {
+  font-size: .8em;
+}
+
+/* Play button */
+.play-button {
+  width: 200px;
+  background-color: #17ad99;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  display: block;
+  margin: 20px auto 20px;
+}
+
+.play-button:disabled {
+  cursor: not-allowed;
+}
+
+.jackpot {
+  grid-area: jackpot;
+	margin: 0px 10px 0px 10px;
+}
+
+.result-coin {
+  grid-area: result-coin;
+  position: relative; 
+	margin: 0px 10px 20px 10px;
+	height:300px;
+}
+
+canvas { width: 300px; height: 300px;}
+
+.recent-games {
+  grid-area: recent-games;
+	margin: 0px 20px 20px 10px;
+}
+
+.recent-games-table {
+  margin: 0 auto;
+}
+
+#table-body tr:nth-child(even) {
+  background-color: #352f58;
+	color:#fff;
+	padding:5px;
+}
+
+#table-body tr:nth-child(odd) {
+  background-color: #352F58E0;
+	color:#fff;
+	padding:5px;
+}
+
+.won {
+  color: #a5d732;
+}
+
+.lost {
+  color: #ff3232;
+}
+
+.contract-address-github {
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+}
+
+.content {
+  display: grid;
+  grid-template-areas:
+    'header header      header       contract-info'
+    'action jackpot     recent-games recent-games'
+    'action result-coin recent-games recent-games';
+}
+
+.content > div {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .content {
+    grid-template-areas:
+      'header'
+      'contract-info'
+      'action'
+      'jackpot'
+      'recent-games'
+      'result-coin';
+  }
+  .contract-address-github {
+    position: relative;
+  }
+}
+
+/* Contract address stays at bottom */
+@media (max-height: 600px) {
+  .contract-address-github {
+    position: relative;
+  }
+}
+
+.wait {
+  filter: blur(2px);
+}
