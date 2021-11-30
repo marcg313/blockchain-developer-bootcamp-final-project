@@ -24,7 +24,7 @@ https://www.youtube.com/watch?v=jERAmhSGfl4
   </ul>
 
 <h3>Install</h3>
-To run your own Flip Coin instance:
+<p>To run your own Flip Coin instance:</p>
 
 <ol>
   <li>Publish the solidity smart contract using Ethereum Wallet and take note of the contract address. You must deposit funds to the contract, either at publish time or using the contract function depositFunds(). This is required because contract must have funds so users can play.</li>
