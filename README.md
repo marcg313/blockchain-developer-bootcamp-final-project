@@ -10,7 +10,7 @@ The contract is deployed on the Ropsten testnet and therefore all players must u
 <h3>Frontend</h3>
 http://77.68.119.240/plesk-site-preview/flipcoin.io/https/77.68.119.240/
 
-<h3>Demo / Screen Recording</h3>
+<h3>Demo / Screencast</h3>
 https://www.youtube.com/watch?v=jERAmhSGfl4
 
 <h3>Directory Structure</h3>
