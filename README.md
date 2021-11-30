@@ -30,7 +30,7 @@ https://www.youtube.com/watch?v=jERAmhSGfl4
 <li>Git</li>
 </ul>
 
-Run at localhost and test and interact
+<h3>Run at localhost and test and interact</h3>
 <li>Start an Ethereum node with Ganache listening on localhost:8545 $ ganache-cli</li>
 <li>$ truffle migrate</li>
 <li>$ truffle test</li>
