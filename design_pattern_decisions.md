@@ -1,5 +1,5 @@
 <h3>Inheritance and Interfaces</h3>
-<p>Flip Coin makes use of the SafeMath Library to ensure safe calculations.</p>
+Flip Coin makes use of the SafeMath Library to ensure safe calculations.
 
-<p>Access Control Design Patterns</p>
+<h3>Access Control Design Patterns</h3>
 <p>Only the current owner can set a new owner.</p>
