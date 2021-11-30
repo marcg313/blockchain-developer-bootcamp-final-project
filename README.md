@@ -1,6 +1,6 @@
 # blockchain-developer-bootcamp-final-project
 
-<h3>The project</h3>
+<h3>The Project</h3>
 Flip Coin is a simple Ethereum dApp where you can bet either on heads or tails and win (or lose) ether.
 The result is produced through random number generation and cannot be manipulated.
 There are no fees except from miners. 
@@ -41,5 +41,5 @@ To install the local dependencies run npm install in both the root and frontend 
 
 To run the contract tests, run ganache-cli (host: 127.0.0.1 port: 8545) and truffle test in the root directory.
   
-  <h3>Project contract address</h3>
+  <h3>Project Contract Address</h3>
   https://ropsten.etherscan.io/address/0xe4FbC73f03B5Ae1EAf0Aada6C9Cc596f66BBcCB6
